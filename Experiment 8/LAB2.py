@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read input image
-img = cv2.imread('C:/Users/kirti/OneDrive/Desktop/image processing lab/im.jpeg')
+img = cv2.imread('C:/Users/Anshuman/OneDrive/Desktop/image processing lab/im.jpeg')
 
 # Convert BGR to HSV
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
